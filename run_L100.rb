@@ -2,7 +2,7 @@ require 'buildingsync'
 require 'buildingsync/generator'  # This will not be needed in the future. The BuildingSync gem will include this by default in the next version
 require 'buildingsync/translator'
 
-xml_file = 'L100_OpenStudio_Pre-Simulation_01.xml'
+xml_file = 'L100_Audit.xml'
 output_folder = "output/#{File.basename(xml_file, '.*')}"
 # EPW file path has to be the full path.
 epw_file_path = File.expand_path('weather/USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.epw')

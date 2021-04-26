@@ -32,10 +32,18 @@ bundle install
 The example files below are taken from [BuildingSync's TestSuite](https://github.com/BuildingSync/TestSuite). In the future
 we should move these examples to the TestSuite as part of the broader integration tests.
 
-* L000 - Very high level model articulation for Willis Tower in Chicago. The model does not represent geometric reality.
+* L000 
+  
+  * Very high level model articulation for Willis Tower in Chicago. The model does not represent geometric reality.
 
     ```bash
     bundle exec ruby run_L000.rb
     ```
 
-* L100 - Still in testing.
+* L100 - OpenStudio Pre Simulation 
+  
+  * Still in testing. Does not currently work with the HVAC system that is defined.
+  
+* L100 - Audit
+
+  * Still in testing. Does not currently work with the HVAC system that is defined.
