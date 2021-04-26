@@ -1,0 +1,20 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  tests:
+    name: tests
+    container: nrel/openstudio:3.0.1
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: Setup
+      run: |
+        gem install bundler
+        bundle install
+    - name: Building Section Spec
+      run: bundle exec ruby run_L000.rb

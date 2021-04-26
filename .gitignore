@@ -1,0 +1,19 @@
+.bundle
+.yardoc
+.ruby-version
+.python-version
+.rspec_status
+Gemfile.lock
+gems
+_yardoc
+coverage
+doc
+pkg
+tmp
+.DS_Store
+
+output
+
+# Ignore IDE files
+.idea
+*.rubocop-http*
