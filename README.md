@@ -17,7 +17,13 @@ The newer versions of OpenStudio have minor breaking changes that have not been 
 installed, then export the path of the folder that contains the openstudio.rb file to RUBYLIB environment variable
 (e.g., `export RUBYLIB=/Applications/OpenStudio-3.0.1/Ruby`)
 
+Required dependencies:
+
+* OpenStudio 3.0.1
+* Ruby 2.5.x
+
 ```bash
+gem install bundler
 bundle install
 ```
 
